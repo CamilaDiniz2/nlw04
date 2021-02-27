@@ -113,3 +113,13 @@
 .challangeActive footer button:hover {
   filter: brightness(0.9);
 }
+
+@media only screen and (max-width: 786px) {
+  .challangeActive main {
+    margin: 2rem 0 1rem;
+  }
+
+  .challangeActive footer {
+    margin: 1rem 0;
+  }
+}
